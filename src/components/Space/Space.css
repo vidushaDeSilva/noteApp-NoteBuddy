@@ -1,0 +1,47 @@
+/* .container{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+}
+
+#book-bullet{
+    width: 50px;
+}
+
+.breaker{
+    border: 1px solid black;
+}
+
+.date{
+    justify-self: end;
+    align-self: end;
+} */
+
+.space-container {
+    display: flex;
+    flex-direction: row;
+}
+
+#book-bullet {
+    width: 25px;
+}
+
+#title {
+    cursor: pointer;
+}
+
+.breaker {
+    border: 1px solid black;
+}
+
+.date {
+    margin-left: auto;
+    align-self: flex-end;
+    margin-right: 20px;
+}
+
+#cross {
+    width: 20px;
+    justify-self: end;
+}
+

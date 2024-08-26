@@ -1,0 +1,35 @@
+.container {
+    width: 50%;
+    height: 70vh;
+    background-color: white;
+    border-radius: 20px;
+    /* margin: 175px; */
+    margin-top: 30px;
+    margin-left: 25%;
+    position: relative;
+}
+
+.title {
+    font-size: 30px;
+    text-decoration: underline;
+    font-family: 'Playwrite ES Deco', sans-serif;
+}
+
+#cross {
+    width: 20px;
+    cursor: pointer;
+    position: absolute; /* Position the cross icon absolutely within the container */
+    top: 10px; /* Position 10px from the top */
+    right: 10px; /* Position 10px from the right */
+    margin-right: 10px ;
+    margin-top: 10px;
+}
+
+.container-notes {
+    height: 50%;
+    overflow-y: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
